@@ -1,8 +1,7 @@
 class config:
     BOT_TOKEN = "5834620590:AAGfp6qPyLyu42b_Ocmy1eHHDCK2EuAwVDs"
-    APP_ID = ""
-    API_HASH = ""
-    DATABASE_URL = ""
+    APP_ID = "2572163"
+    API_HASH = "deede80ddff7842db6c90b5715635142"
     SUDO_USERS = "1292898087 1748793706" # Sepearted by space.
     SUPPORT_CHAT_LINK = "https://t.me/+_4wOBC2UiMJmMGNl"
     DOWNLOAD_DIRECTORY = "./downloads/"
@@ -21,11 +20,11 @@ class BotCommands:
   Ytdl = ['ytdl']
 
 class Messages:
-    START_MSG = "**Hi there {}.**\n__I'm Google Drive Uploader Bot.You can use me to upload any file / video to Google Drive from direct link or Telegram Files.__\n__You can know more from /help.__"
+    START_MSG = "**Hi {}, Welcome to Google Drive X bot!**__\n__I can upload file or direct download link to your Google drive or Team drive. Just authenticate me to access drive.__\n__**You can know more from /help.__**"
 
     HELP_MSG = [
         ".",
-        "**Google Drive Uploader**\n__I can upload files from direct link or Telegram Files to your Google Drive. All i need is to authenticate me to your Google Drive Account and send a direct download link or Telegram File.__\n\nI have more features... ! Wanna know about it ? Just walkthrough this tutorial and read the messages carefully.",
+        "**Google Drive X bot**\n__I can upload files or direct link to your Google Drive. All i need is to authenticate me to your Google Drive Account and send a direct link or file.__\n\nI have more features... ! Wanna know about it ? Just walkthrough this tutorial and read the messages carefully.",
         
         f"**Authenticating Google Drive**\n__Send the /{BotCommands.Authorize[0]} commmand and you will receive a URL, visit URL and follow the steps and send the received code here. Use /{BotCommands.Revoke[0]} to revoke your currently logged Google Drive Account.__\n\n**Note: I will not listen to any command or message (except /{BotCommands.Authorize[0]} command) until you authorize me.\nSo, Authorization is mandatory !**",
         
@@ -38,7 +37,7 @@ class Messages:
         "**Rules & Precautions**\n__1. Don't copy BIG Google Drive Files/Folders. It may hang the bot and your files maybe damaged.\n2. Send One request at a time unless bot will stop all processes.\n3. Don't send slow links @transload it first.\n4. Don't misuse, overload or abuse this free service.__",
         
         # Dont remove this ↓ if you respect developer.
-        "**Developed by @viperadnan**"
+        "**Developed by @Viperadnan**"
         ]
      
     RATE_LIMIT_EXCEEDED_MESSAGE = "❗ **Rate Limit Exceeded.**\n__User rate limit exceeded try after 24 hours.__"
