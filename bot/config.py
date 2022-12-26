@@ -2,11 +2,10 @@ class config:
     BOT_TOKEN = "1629412971:AAEdl1_xmnuR3dC3jZ3uW-kwlms9J19FmeE"
     APP_ID = "2572163"
     API_HASH = "deede80ddff7842db6c90b5715635142"
-    DATABASE_URL = "mongodb+srv://GDriveQbot:GDriveQbot@cluster0.2b9k6q5.mongodb.net/?retryWrites=true&w=majority"
+    DATABASE_URL = "postgres://qboqnrcq:RCKmDnxKcRW-dve-YW6jqYGoX4mlSd2Z@floppy.db.elephantsql.com/qboqnrcq"
     SUDO_USERS = "1292898087 1748793706" # Sepearted by space.
     SUPPORT_CHAT_LINK = "https://t.me/theq003"
     DOWNLOAD_DIRECTORY = "./downloads/"
-    ENV = "ANYTHING"
     G_DRIVE_CLIENT_ID = "590485850946-jrtqd6qp9uolfhpdmfb02ci58imkpknk.apps.googleusercontent.com"
     G_DRIVE_CLIENT_SECRET = "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"
 
